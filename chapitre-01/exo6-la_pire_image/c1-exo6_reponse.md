@@ -1,5 +1,3 @@
-Voici la version corrigée :
-
 # Analyse et mesure de performance
 
 Pour effectuer cette mesure de performance, nous avons utilisé notre mini moteur de rendu écrit lorsque nous étions en GAP3 et nous l'avons ajusté pour prendre les différentes mesures, notamment grâce à l'intelligence artificielle (Gemini) qui nous a permis d'effectuer cette modification sur le code !
