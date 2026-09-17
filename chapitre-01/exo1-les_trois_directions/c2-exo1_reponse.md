@@ -10,7 +10,7 @@ Pour déterminer les coordonnées Avant, Haut et Droite, nous avons utilisé la 
 
 Cette méthode nous permet de déterminer les coordonnées axiales et les vecteurs unitaires des conventions OpenXR et Nkentseu.
 
-# Nous avons décidé de définir les fonctions Avant(), Haut() et Droite() en `static`, car celles-ci renverront toujours le même résultat quelle que soit l'instance de la classe créée. Il est donc plus judicieux qu'elles appartiennent à la classe plutôt qu'à l'objet.
+Nous avons décidé de définir les fonctions Avant(), Haut() et Droite() en `static`, car celles-ci renverront toujours le même résultat quelle que soit l'instance de la classe créée. Il est donc plus judicieux qu'elles appartiennent à la classe plutôt qu'à l'objet.
 
 Compilateur : MSVC
 
