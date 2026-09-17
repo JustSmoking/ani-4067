@@ -18,6 +18,6 @@ Pas grand chose a dire ici, c'est juste du streaming adapte pour la VR
 
 # Classement du plus suceptible a rendre malade a la moins susceptible de rendre malade :
 
-- Resident Evil 7 VR : C'est un jeu d'horreur. Risques d'AVC et d'épilepsie photosensible. De plus, si le support n'est pas assez performant (PC, casque VR, etc.), le jeu sera saccadé car le matériel ne pourra pas générer au minimum 72 IPS avec un mauvais frametime !
+- Resident Evil 7 VR : C'est un jeu d'horreur. problèmes cardiaques et d'épilepsie photosensible. De plus, si le support n'est pas assez performant (PC, casque VR, etc.), le jeu sera saccadé car le matériel ne pourra pas générer au minimum 72 IPS avec un frametime correct causant ainsi des effets desagréables comme vu précédemment !
 
 - VRchat && Netflix VR: Maux de tête dus à une longue exposition, le casque devenant très vite lourd et gênant durant les longues sessions.
