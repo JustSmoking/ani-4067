@@ -46,4 +46,4 @@ Pour que les deux fonctions coïncident, il faut appliquer la règle géométriq
   *(il est possible d'utiliser n'importe quelles coordonnées ici, le résultat restera identique).*
 
 ### Observation
-![](1.png)
+![](0.png)
