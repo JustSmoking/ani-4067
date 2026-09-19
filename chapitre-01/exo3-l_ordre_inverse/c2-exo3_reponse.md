@@ -44,3 +44,4 @@ Pour que les deux fonctions coïncident, il faut appliquer la règle géométriq
   *(le code va le normaliser, ce qui correspondra à une rotation de 90° autour de l'axe Z).*
 * **Point local :** (5, 5, 5)
   *(il est possible d'utiliser n'importe quelles coordonnées ici, le résultat restera identique).*
+[Observation : ](1.png)
