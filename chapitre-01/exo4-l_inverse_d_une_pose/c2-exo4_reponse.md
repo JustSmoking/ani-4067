@@ -29,12 +29,12 @@ Ce programme est fourni à titre d'exemple ; de nombreuses optimisations restent
 
 * Pose normale : (2.89, 3.17, 2.92)
 * Pose inverse après avoir appliqué la pose normale : (1.9999, 2, 2)
-> *Observation : On retrouve le point $P$.*
+> *Observation : On retrouve le point P d'origine.*
 * Écart entre $P$ et $P'$ ($P'$ étant le point transformé) : (0.0001, 0, 0)
 
 ## Conclusion
 
-On peut donc conclure que pour n'importe quel point $x$ :
+On peut donc conclure que pour n'importe quel point $x$ et une pose $P$:
 
 $\text{InversePose}(\text{Pose}(x)) = x$
 
