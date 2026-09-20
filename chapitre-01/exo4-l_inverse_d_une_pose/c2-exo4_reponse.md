@@ -34,7 +34,7 @@ Ce programme est fourni à titre d'exemple ; de nombreuses optimisations restent
 
 ## Conclusion
 
-On peut donc conclure que pour n'importe quel point $x$ :
+On peut donc conclure que pour n'importe quel point $x$ et une pose $P$:
 
 $\text{InversePose}(\text{Pose}(x)) = x$
 
