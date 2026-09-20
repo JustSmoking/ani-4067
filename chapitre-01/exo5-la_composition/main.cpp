@@ -139,6 +139,12 @@ struct Pose
         return SUMROTP - UPI - SUPI - _a;
     }
 
+    point _composePose(Pose &second, point &P)
+    {
+        point temp = second._Pose(P);
+        return this->_Pose(temp);
+    }
+
 };
 
 void _poseTest()
@@ -228,9 +234,63 @@ void _inversePoseTest()
     pointLocal.print();
 }
 
+void _composePoseTest()
+{
+    // 1. Lecture de la position de la pose 1
+    float px, py, pz;
+    std::cin >> px >> py >> pz;
+    point positionPose(px, py, pz);
+
+    // 2. Lecture du quaternion d'orientation (w, x, y, z)1
+    float qw, qx, qy, qz;
+    std::cin >> qw >> qx >> qy >> qz;
+    quaternion orientationPose(qw, qx, qy, qz);
+
+    // 1. Lecture de la position de la pose 2
+    float px1, py1, pz1;
+    std::cin >> px1 >> py1 >> pz1;
+    point positionPose1(px1, py1, pz1);
+
+    // 2. Lecture du quaternion d'orientation (w, x, y, z)2 
+    float qw1, qx1, qy1, qz1;
+    std::cin >> qw1 >> qx1 >> qy1 >> qz1;
+    quaternion orientationPose1(qw1, qx1, qy1, qz1);
+
+    // 3. Initialisation de la Pose
+    Pose maPose;
+    maPose._a = positionPose;
+    maPose._b = orientationPose;
+
+    Pose maPose1;
+    maPose1._a = positionPose1;
+    maPose1._b = orientationPose1;
+
+    // 4. Lecture du point de l'entité à transformer 
+    float x, y, z;
+    std::cin >> x >> y >> z;
+    point pointLocal(x, y, z);
+
+    // 5. Calcul de la transformation finale 
+    point pointEspace = maPose._composePose(maPose1, pointLocal);
+
+    // 6. Affichage du point transformé
+    pointEspace.print();
+
+    std::cout << "Resultat apres la Pose 2" << std::endl;
+    point p1 = maPose1._Pose(pointLocal);
+    p1.print();
+
+    std::cout << "Resultat apres la Pose 1 suivi de la pose 2 (Resultat final)" << std::endl;
+
+    point p2 = maPose._Pose(p1);
+    p2.print();
+}
+
 int main()
 {
-    _poseTest();
-    _inversePoseTest();
+    //_poseTest();
+    //_inversePoseTest();
+
+    _composePoseTest();
     
 }
