@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 
+
+
 class point
 {
     public:
