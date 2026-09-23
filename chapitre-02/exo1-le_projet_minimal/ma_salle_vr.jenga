@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# ma_salle_vr - Jenga Project (inclus dans le workspace via include())
+
+from Jenga import *
+
+with project("ma_salle_vr"):
+    consoleapp()
+    language("C++")
+    cppdialect("C++17")
+    location(".")
+    files(["src/**.cpp", "include/**.hpp"])
